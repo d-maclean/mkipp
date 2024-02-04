@@ -20,8 +20,8 @@ Requirements: history.data and profiles.data containing
 """
 import numpy as np
 from math import log10, pi
-from mesa_data import *
-from kipp_data import *
+from .mesa_data import *
+from .kipp_data import *
 from collections import namedtuple
 
 #matplotlib specifics
@@ -51,7 +51,7 @@ def default_extractor(identifier, log10_on_data, prof, return_data_columns = Fal
 #properties of the plotter
 class Kipp_Args:
     def __init__(self,
-            logs_dirs = ['LOGS'],
+            logs_dirs,
             profile_paths = [],
             history_paths = [],
             clean_data = True,
