@@ -188,7 +188,7 @@ class mesa_data:
 
 #reads the profiles.index files in the folders specified by the logs_dirs array and returns
 #an array containing paths to the individual profile files, after cleaning up redos and backups
-def get_profile_paths(logs_dirs = ["LOGS"]):
+def get_profile_paths(logs_dirs):
     profile_paths = []
     for log_dir in logs_dirs:
         print(log_dir, logs_dirs)
