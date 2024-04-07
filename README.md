@@ -1,5 +1,4 @@
-This fork is re-organized to be easily importable as a module, which is helpful for my work in stellar evolution.
-
+This fork is re-organized to be easily importable as a module, which is helpful for my own use-case.
 # mkipp
 Kippenhahn plotter for MESA. BEWARE: this README might be out of date! In case the examples don't work refer to the example.py file in the repository.
 
